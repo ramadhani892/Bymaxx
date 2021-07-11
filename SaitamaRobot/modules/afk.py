@@ -40,7 +40,7 @@ def afk(update, context):
     fname = update.effective_user.first_name
     try:
         update.effective_message.reply_text(
-            "{} is now Away!".format(fname))
+            "{} Sekarang AFK!".format(fname))
     except BadRequest:
         pass
 
@@ -62,17 +62,17 @@ def no_longer_afk(update, context):
         firstname = update.effective_user.first_name
         try:
             options = [
-                "{} Is wasting his time in the chat!",
-                "The Dead {} Came Back From His Grave!",
-                "We thought we lost you {}",
-                "Welcome Back {} now pay $100 to Get freedom or get banned!",
-                "{} Good job waking up now get ready for your classes!",
-                "Hey {}! Why weren't you online for such a long time?",
-                "{} why did you came back?",
-                "{} Is now back online!",
-                "OwO, Welcome back {}",
-                "Welcome to hell again {}",
-                "Mission failed successfully {}",
+                "{} Berada didalam Chat ini!",
+                "Halo {}, Bymaxx Setia menjagamu",
+                "Selamat datang kembali {}",
+                "Aku selalu disini menemanimu {}",
+                "{} Oh hey, Darimana kamu?",
+                "Hey {}! Kenapa Kamu bolak balik mulu?",
+                "{} Akan menjadi teman setiaku!",
+                "{} Sudah online kembali!",
+                "Waw, halo {}",
+                "Darimana kamu {}?",
+                "Ucapkan lah bahwa kamu yang terbaik {}",
             ]
             chosen_option = random.choice(options)
             update.effective_message.reply_text(
@@ -146,7 +146,7 @@ def check_afk(update, context, user_id, fst_name, userc_id):
         else:
             if int(userc_id) == int(user_id):
                 return
-            res = "{} is afk!\nReason: {}\nLast seen: {} ago".format(fst_name, reason, since_afk)
+            res = "{} Sedang AFK!\nAlasan: {}\nTerkahir dilihat: {} ago".format(fst_name, reason, since_afk)
             update.effective_message.reply_text(res)
 
 
