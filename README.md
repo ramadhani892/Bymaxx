@@ -29,7 +29,7 @@ REMEMBER: Turn on worker dyno (Don't worry It's free :D) & Webhook
 Now send the bot /start, If it doesn't respond go to https://dashboard.heroku.com/apps/(app-name)/settings and remove webhook and port.
 ```
 
-  [![Deploy](https://giphy.com/gifs/disney-disneyanimation-PfhMsDmb7tHd6)](https://heroku.com/deploy?template=https://github.com/ramadhani892/Bymaxx.git)
+  [![Deploy](https://giphy.com/media/PfhMsDmb7tHd6/giphy.gif)](https://heroku.com/deploy?template=https://github.com/ramadhani892/Bymaxx.git)
 
 </details>  
 <details>
@@ -169,7 +169,7 @@ For queries or any issues regarding the bot please open an issue ticket or visit
 ## How to setup on Heroku 
 For starters click on this button 
 
-[![Deploy](https://giphy.com/gifs/disney-disneyanimation-PfhMsDmb7tHd6)](https://heroku.com/deploy?template=https://github.com/PAINBOI2008/PainRobot.git) 
+[![Deploy](https://giphy.com/media/PfhMsDmb7tHd6/giphy.gif)](https://heroku.com/deploy?template=https://github.com/PAINBOI2008/PainRobot.git) 
 
 
 ## Credits
