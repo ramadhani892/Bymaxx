@@ -58,13 +58,13 @@ You can find the list of available commands with /help
 """
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
-I'm a part of [Akatsuki.](https://t.me/PainRobotSupport)
-Have a look at the following for an idea of some of the things I can help you with.
+Halo, Nama saya adalah*{}*.
+Saya Bwrteman Baik dengan [GOKU](https://t.me/goku_isbot)
+Saya bisa membantumu untuk memanage group mu.
 
 *Main* commands available:
- • /help: PM's you this message.
- • /help <module name>: PM's you info about that module.
+ • /help: Untuk melihat perintah.
+ • /help <nama module>: Untuk mengetahui detail perintah.
  • /donate: information on how to donate!
  • /settings:
    • in PM: will send you your settings for all supported modules.
@@ -200,31 +200,31 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="🧲Add Pain to your group!",
+                            text="🧲Tambahkan Aku ke Grup!",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                      ],
                      [
                          InlineKeyboardButton(
                              text="⚙️ Support Group",
-                             url=f"https://t.me/{SUPPORT_CHAT}"),
+                             url=f"https://t.me/Teman_Random"),
                          InlineKeyboardButton(
-                             text="🔔Updates Channel",
-                             url="https://t.me/PainRobotUpdates")
+                             text="LANDAK 🦔",
+                             url="https://t.me/MaafGausahSokap")
                      ],
                      [
                          InlineKeyboardButton(
-                             text="📖 Getting Started Guide",
-                             url="https://t.me/PainRobotUpdates/4")
+                             text="Teman Landak 🦔",
+                             url="https://t.me/DhaniLagiDep")
                      ],
                      [
                          InlineKeyboardButton(
-                             text="💾 Source Code.",
-                             url="https://github.com/PAINBOI2008/PainRobot")
+                             text="REPO GITHUB.",
+                             url="https://github.com/ramadhani893/GOKU")
                      ]]))
     else:
         update.effective_message.reply_text(
-            "I'm online!\n<b>Up since:</b> <code>{}</code>".format(uptime),
+            "Saya Online!\n<b>Up since:</b> <code>{}</code>".format(uptime),
             parse_mode=ParseMode.HTML)
 
 
